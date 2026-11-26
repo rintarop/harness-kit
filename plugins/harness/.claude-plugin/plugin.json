@@ -1,0 +1,6 @@
+{
+  "name": "harness",
+  "description": "個人開発プロジェクト共通の Claude Code ハーネス",
+  "author": { "name": "rintarop" },
+  "repository": "https://github.com/rintarop/harness-kit"
+}

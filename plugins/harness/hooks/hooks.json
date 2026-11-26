@@ -1,0 +1,16 @@
+{
+  "description": "セッション開始時に共通指示 (instructions.md) を読み込む",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/instructions.md\""
+          }
+        ]
+      }
+    ]
+  }
+}

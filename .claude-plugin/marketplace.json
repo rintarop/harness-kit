@@ -1,0 +1,12 @@
+{
+  "name": "harness-kit",
+  "description": "個人開発プロジェクト共通の Claude Code ハーネス",
+  "owner": { "name": "rintarop" },
+  "plugins": [
+    {
+      "name": "harness",
+      "source": "./plugins/harness",
+      "description": "共通指示・フック・スキル・コマンド"
+    }
+  ]
+}
